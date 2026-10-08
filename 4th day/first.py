@@ -60,7 +60,7 @@ print(marks.count(70))
 print(marks.index(60))
 """
 """
-names = ["ommii","Prathiksha", "sakshi", "samarth"]
+names = ["ommii", "sakshi", "samarth"]
 
 for name in names:
     print(name)
@@ -184,7 +184,7 @@ print(count)
 
 
 """
-
+"""
 students = {
     "a" : {"name": "omiii", "marks": 90},
     "b" : {"name": "pratiksha", "marks": 80}
@@ -197,4 +197,41 @@ nums = {1, 2, 2, 3, 4, 4, 5}
 print(nums)
 
 empty = set()
+"""
+"""
+s = {1, 2, 3}
+
+s.add(4)
+s.remove(2)
+s.discard(10)
+print(s)
+
+a = input("Enter the number's")
+
+a = {1,2,3,4}
+b = {3,4,5,6}
+
+print(a| b)
+print(a & b)
+print(a - b)
+print(a ^ b)
+"""
+
+
+data = [5, 1,4,3,2 ,2]
+unique = list(set(data))
+print(len(unique))
+
+
+nums = []
+
+
+
+
+
+with open("notes.txt", "w") as f:
+    f.write("Hello Python")
+    f.write("file handling is easy\n")
+
+
 
