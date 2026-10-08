@@ -162,7 +162,7 @@ print(list(d.values()))
 print(list(d.items()))
 
 """
-
+"""
 marks = {
     "math": 90,
     "science": 80,
@@ -181,3 +181,20 @@ for w in word_list:
     count[w] = count.get(w, 0) + 1
 
 print(count)
+
+
+"""
+
+students = {
+    "a" : {"name": "omiii", "marks": 90},
+    "b" : {"name": "pratiksha", "marks": 80}
+}
+
+print(students["a"]["name"])
+
+
+nums = {1, 2, 2, 3, 4, 4, 5}
+print(nums)
+
+empty = set()
+
