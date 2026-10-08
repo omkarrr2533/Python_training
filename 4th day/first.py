@@ -125,7 +125,7 @@ t = (1, 2, 3, 4, 5)
 print(t.count(3))
 print(t.index(4))
 """
-
+"""
 student = {
     "name": "Omii",
     "age": 20,
@@ -139,3 +139,45 @@ print(student.get("age"))
 print(student.get("age"))
 print(student.get("name"))
 print(student.get("phone", "NA"))
+
+student["course"] = "Python"
+student["age"] = 21
+student.update({"city": "Mumbai"})
+
+student.pop("course")
+del student["age"]
+
+print(student.keys())
+
+
+
+d = {
+    "a": 1,
+    "b": 2,
+    "c": 3
+}
+
+print(list(d.keys()))
+print(list(d.values()))
+print(list(d.items()))
+
+"""
+
+marks = {
+    "math": 90,
+    "science": 80,
+    "english": 70
+}
+
+
+for subject, mark in marks.items():
+    print(f"{subject}: {mark}")
+
+
+word_list = ["ai", "py", "ml", "ds"]
+count = {}
+
+for w in word_list:
+    count[w] = count.get(w, 0) + 1
+
+print(count)
