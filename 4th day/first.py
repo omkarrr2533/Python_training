@@ -71,7 +71,7 @@ for i , name in enumerate(names):
 
 
 """
-
+"""
 nums = [10, 20, 30, 40, 50]
 
 print(sum(nums))
@@ -85,3 +85,57 @@ print(squares)
 
 even_nums = [x for x in range(1, 11) if x % 2 == 0]
 print(even_nums)
+
+"""
+"""
+
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+print(matrix[0][1])
+print(matrix[1][2])
+
+"""
+"""
+point = (3, 4)
+colours = ("red", "green", "blue")
+
+
+print(point[0])
+print(colours[1])
+
+
+a = (5)
+b = (5,)
+
+print(type(a))
+print(type(b))
+"""
+"""
+student = ("Omii", 20, "Pune")
+
+name, age, city = student
+print(name)
+print(age)
+print(city)
+
+"""
+"""
+t = (1, 2, 3, 4, 5)
+
+print(t.count(3))
+print(t.index(4))
+"""
+
+student = {
+    "name": "Omii",
+    "age": 20,
+    "city": "Pune"
+
+}
+
+print(student["name"])
+print(student.get("age"))
+
+print(student.get("age"))
+print(student.get("name"))
+print(student.get("phone", "NA"))
