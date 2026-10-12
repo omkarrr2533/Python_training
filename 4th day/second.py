@@ -37,3 +37,5 @@ names = ["Riya", "Aman", "Omii"]
 with open("names.txt",  "w") as f:
     for n in names:
         f.write(n + "\n")
+
+
