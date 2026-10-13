@@ -22,6 +22,6 @@ plt.plot(days, b, color = "green", marker="o", linestyle="--", label= "Java")
 plt.title("weekly Scores")
 plt.xlabel("day")
 plt.ylabel("Score")
-plt.legend()
+"""plt.legend() """
 plt.grid(True)
 plt.show()
